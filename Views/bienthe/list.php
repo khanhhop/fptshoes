@@ -1,6 +1,6 @@
 <div class="row g-3 mb-4 align-items-center justify-content-between">
 				    <div class="col-auto">
-			            <h1 class="app-page-title mb-0">Orders</h1>
+			            <h1 class="app-page-title mb-0">Biến thể</h1>
 				    </div>
 				    <div class="col-auto">
 					     <div class="page-utilities">
@@ -58,22 +58,33 @@
 										<thead>
 											<tr>
 												<th class="cell">ID</th>
-												<th class="cell">Mã giảm giá</th>
-												<th class="cell">Phần trăm giảm </th>
+												<th class="cell">Tên biến thể</th>
+												<th class="cell">Sản phẩm</th>
+												<th class="cell">Kích cỡ</th>
+												<th class="cell">Màu sắc</th>
+												<th class="cell">Giá</th>
+												<th class="cell">Số lượng trong kho</th>
+												<th class="cell">Số lượng đã bán</th>
+												<th class="cell">Thao tác</th>
 
 											</tr>
 										</thead>
 										<tbody>
-                                            <?php foreach($listGG as $giamGia){
-                                                extract($giamGia);
+                                            <?php foreach($listBT as $bienThe){
+                                                extract($bienThe);
                                              ?>
 											<tr>
-												<td class="cell"><?= $id_magg ?></td>
-												<td class="cell"><?= $ma ?></td>
-												<td class="cell"><?= $phantram_giam ?></td>
+												<td class="cell"><?= $id_bienthe ?></td>
+												<td class="cell"><?= $ten_bienthe?></td>
+												<td class="cell"><?= $ten_sp?></td>
+												<td class="cell"><?= $kich_co?></td>
+												<td class="cell"><?= $mau_sac ?></td>
+												<td class="cell"><?= $gia ?></td>
+												<td class="cell"><?= $so_luong_trong_kho ?></td>
+												<td class="cell"><?= $so_luong_da_ban ?></td>
 												<td>
-                                                    <button type="submit" class="btn btn-danger" > <a href="?act=ma-giam-gia-delete&id=<?= $id_magg?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button>
-                                                    <button type="submit" class="btn btn-warning"><a href="?act=ma-giam-gia-edit&id=<?= $id_magg?>">Sửa</a></button>
+                                                    <button type="submit" class="btn btn-danger" > <a href="?act=bien-the-delete&id=<?= $id_bienthe?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button>
+                                                    <button type="submit" class="btn btn-warning"><a href="?act=bien-the-edit&id=<?= $id_bienthe?>">Sửa</a></button>
                                                 </td>
 											</tr>
                                             <?php 

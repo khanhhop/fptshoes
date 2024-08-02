@@ -82,8 +82,8 @@
 												<td class="cell"><?= $chat_lieu?></td>
 												<td class="cell"><?= $so_luong_da_ban?></td>
 												<td>
-                                                    <button type="submit" class="btn btn-danger" > <a href="?act=san-pham-delete&id=<?= $id_dm?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button>
-                                                    <button type="submit" class="btn btn-warning"><a href="?act=san-pham-edit&id=<?= $id_dm?>">Sửa</a></button>
+                                                    <button type="submit" class="btn btn-danger" > <a href="?act=san-pham-delete&id=<?= $id_sp?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button>
+                                                    <button type="submit" class="btn btn-warning"><a href="?act=san-pham-edit&id=<?= $id_sp?>">Sửa</a></button>
                                                 </td>
 											</tr>
                                             <?php 

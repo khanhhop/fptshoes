@@ -70,8 +70,8 @@ function pdo_query_one($sql){
 }
 
 
-function check_name($name,$table){
-    $sql = "SELECT * FROM $table Where ten_dm ='$name'";
+function check_name($cot,$name,$table){
+    $sql = "SELECT * FROM $table Where  $cot='$name'";
     return pdo_query($sql);
 }
 ?>

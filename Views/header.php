@@ -347,8 +347,6 @@
 								<ul class="submenu-list list-unstyled">
 									<li class="submenu-item"><a class="submenu-link"
 											href="?act=lien-he-list">Danh sách</a></li>
-									<li class="submenu-item"><a class="submenu-link" href="?act=lien-he-add">Thêm mới</a>
-									</li>
 								</ul>
 							</div>
 						</li><!--//nav-item-->
@@ -446,8 +444,7 @@
 								<ul class="submenu-list list-unstyled">
 									<li class="submenu-item"><a class="submenu-link"
 											href="?act=quan-ly-hoa-don-list">Danh sách</a></li>
-									<li class="submenu-item"><a class="submenu-link" href="?act=hoa-don-add">Thêm mới</a>
-									</li>
+									
 								</ul>
 							</div>
 						</li><!--//nav-item-->

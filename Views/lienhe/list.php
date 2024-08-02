@@ -77,8 +77,8 @@
 							                    <td class="cell"><?= $tin_nhan?></td>
 											
 												<td>
-                                                    <button type="submit" class="btn btn-danger" > <a href="?act=lien-he-delete&id=<?= $id_lienhe?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button>
-                                                    <button type="submit" class="btn btn-warning"><a href="?act=lien-he-edit&id=<?= $id_lienhe?>">Sửa</a></button>
+                                                    <!-- <button type="submit" class="btn btn-danger" > <a href="?act=lien-he-delete&id=<?= $id_lienhe?>" onclick="return confirm('Bạn muốn xóa ?' )">Xóa</a></button> -->
+                                                    <!-- <button type="submit" class="btn btn-warning"><a href="?act=lien-he-edit&id=<?= $id_lienhe?>">Sửa</a></button> -->
                                                 </td>
 											</tr>
                                             <?php 
